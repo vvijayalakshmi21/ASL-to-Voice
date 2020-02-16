@@ -1,2 +1,21 @@
 # ASL-to-Voice
-Intel &amp; Udacity - Social Good - Project Showcase 
+Intel &amp; Udacity - Social Good - Project Showcase <br />
+ASL stands for [American Sign language](https://en.wikipedia.org/wiki/American_Sign_Language) which is a predominant method of communication used by deaf (or hard of hearing) communities. The speaker uses hand gestures to express a word/letter. Although there is a pre-trained model available in OpenVINO toolkit (V2020) to convert ASL to text in real-time, there is not a provision to listen to the text in audio format. 
+This project proposes to include audio feature in addition to the text display. This is crucial because this will help those that do not see (i.e., visually challenged) or are illiterate to be actively engaged in the communication. <br /> <br /> Please note that this project is NOT complete and only a prototype that currently works for image files. The aim of this submission is to propose to include audio feature for the input (which would be a video file or webcam).
+
+## Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+
+### Prerequisites
+OpenVINO Toolkit (V2020)
+
+### Running the tests
+The test can be run from command line.
+
+**Example**: python app.py -m asl-recognition-0003.xml -i hello.jpg <br />
+where -m refers to the path of the model that will be converting ASL to text. Note that this is an optional parameter and the default will be Intel's pre-trained model  <br />
+-i refers to the path of the input file
+
+### Authors
+Vijaya Lakshmi Venkatraman
