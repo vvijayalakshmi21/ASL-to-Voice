@@ -8,7 +8,9 @@ This project proposes to include audio feature in addition to the text display. 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
 ### Prerequisites
-OpenVINO Toolkit (V2020)
+OpenVINO Toolkit (V2020) <br />
+This can be downloaded from [here](https://docs.openvinotoolkit.org/latest/_docs_install_guides_installing_openvino_windows.html).<br />
+Please ensure that you download the 2020 version of the toolkit. 
 
 ### Running the tests
 The test can be run from command line.
@@ -16,6 +18,10 @@ The test can be run from command line.
 **Example**: python app.py -m asl-recognition-0003.xml -i hello.jpg <br />
 where -m refers to the path of the model that will be converting ASL to text. Note that this is an optional parameter and the default will be Intel's pre-trained model  <br />
 -i refers to the path of the input file
+
+## Future Work/Scope for extension
+1) Convert speech to ASL - The speech output could be converted to ASL and displayed in real-time so that communication between an ASL speaker and a normal speaker becomes seamless <br />
+2) Support sign language in multiple languages (like BSL, CSL, etc.,)
 
 ### Authors
 Vijaya Lakshmi Venkatraman
