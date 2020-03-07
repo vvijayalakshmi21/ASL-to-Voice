@@ -1,4 +1,4 @@
-# ASL-to-Voice
+# I can listen to your sign!
 Intel &amp; Udacity - Social Good - Project Showcase <br />
 ASL stands for [American Sign language](https://en.wikipedia.org/wiki/American_Sign_Language) which is a predominant method of communication used by deaf (or hard of hearing) communities. The speaker uses hand gestures to express a word/letter. Although there is a pre-trained model available in OpenVINO toolkit (V2020) to convert ASL to text in real-time, there is not a provision to listen to the text in audio format. 
 This project proposes to include audio feature in addition to the text display. This is crucial because this will help those that do not see (i.e., visually challenged) or are illiterate to be actively engaged in the communication. <br /> <br /> Please note that this project is NOT complete and only a prototype that currently works for image files. The aim of this submission is to propose to include audio feature for the input (which would be a video file or webcam).
