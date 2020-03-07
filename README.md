@@ -16,10 +16,10 @@ Please ensure that you download the 2020 version of the toolkit.
 The test can be run from command line.
 
 **Example**: 
-```python app.py -m <path-to-asl-recognition-model>.xml -i hello.jpg``` 
+```python app.py -m <path-to-asl-recognition-model>.xml -i <path-to-input-file>.jpg``` 
 
 **-m** refers to the path of the model that will be converting ASL to text. Note that this is an optional parameter and the default will be Intel's pre-trained model  <br />
-**-i** refers to the path of the input file
+**-i** refers to the path of the input file (here it is hello.jpg)
 
 ## Future Work/Scope for extension
 1) Convert speech to ASL - The speech output could be converted to ASL and displayed in real-time so that communication between an ASL speaker and a normal speaker becomes seamless <br />
